@@ -14,7 +14,7 @@
   z-index:200;
   background-color:white;
 }
-.icon-box
+.sidebar .icon-box
 {
   height:74px;
   align-items:center;
@@ -66,3 +66,4 @@
   }
   
 }
+
