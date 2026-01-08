@@ -1,0 +1,134 @@
+body{
+  background-color:rgb(96, 169, 255);
+  display:flex;
+  min-height:100vh;
+  justify-content:center;
+  align-items:center;
+  margin:0;
+}
+
+@media(min-width:980px)
+{
+  main{
+  background-color:white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding:15px 25px;
+  border-radius:10px;
+}
+}
+
+section
+{
+  padding:25px 50px;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  width:220px;
+  border-right:0.8px solid rgba(1, 111, 249,0.11);
+
+}
+#special-section
+{
+  border-right:none;
+}
+.image-box
+{
+  width:220px;
+}
+img{
+  width:100%;
+}
+.grouptype
+{
+  color:rgb(136, 136, 136);
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top:20px;
+  margin-bottom:47px;
+}
+div
+{
+  font-family:"open sans",sans-serif;
+  text-align:center;
+  text-transform: uppercase;
+}
+.text
+{
+  color:rgb(1, 111, 249);
+  font-weight:600;
+  font-size:12px;
+  letter-spacing:1px;
+  border-top:0.8px solid rgba(1, 111, 249,0.11);
+  width:100%;
+  padding: 15px 0;
+  line-height: 18px;
+}
+#text-2
+{
+  border-bottom:0.8px solid rgba(1, 111, 249,0.11);
+
+}
+.price
+{
+  color:rgb(1, 111, 249);
+  font-size:32px;
+  font-weight:700;
+  padding-top:20px;
+}
+button
+{
+  color:rgb(52, 142, 254);
+  border:0.8px solid rgb(157, 209, 255);
+  padding : 12px 35px;
+  border-radius:10px;
+  background-color:white;
+  font-size:16px;
+  font-family:"open sans",sans-serif;
+  margin:25px 0;
+  text-align: center;
+  cursor:pointer;
+}
+.special-button
+{
+  background-color:rgb(72, 170, 255);
+  color:white;
+}
+@media(max-width:980px)
+{
+  body
+  {
+    overflow: visible;
+    margin:0;
+    padding: 0;
+  }
+   main{
+  background-color:white;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  padding:15px 25px;
+  border-radius:10px;
+  width:100%;
+
+  }
+  section
+  {
+    width:100%;
+    border-bottom:0.8px solid rgba(1, 111, 249,0.11);
+    border-right:none;
+    padding:0;
+
+  }
+  .image-box
+  {
+    width:400px;
+  }
+  #special-section
+  {
+    border-bottom:none;
+  }
+}
